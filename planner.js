@@ -1,5 +1,5 @@
 // Sets up moment for jumbotron 
-var currentDay = moment().format("dddd, MMMM Do");
+var currentDay = moment().format("dddd, MMMM Do YYYY");
 var display = document.getElementById("currentDay");
 display.innerHTML = currentDay;
 
